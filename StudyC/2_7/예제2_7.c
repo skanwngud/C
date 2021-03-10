@@ -10,4 +10,15 @@ int main(void)
 }
 
 /* 문자는 character, c
-문자열은 string, s 로 표현한다.*/
+문자열은 string, s 로 표현한다.
+
+#include <stdio.h>
+
+int main(void)
+{
+	printf("학번 : %d\n", 32165);
+	printf("이름 : %s\n", 홍길동);
+	printf("학점 : %c\n", 'A');
+	
+	return 0;
+}*/
