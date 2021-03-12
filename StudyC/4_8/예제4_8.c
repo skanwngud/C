@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int main(void)
 {
@@ -7,10 +7,10 @@ int main(void)
 
 	res = ((double)a) / ((double)b);
 	printf("a = %d, b = %d\n", a, b);
-	printf("a / b ÀÇ °á°ú : %.1lf\n", res);
+	printf("a / b ì˜ ê²°ê³¼ : %.1lf\n", res);
 
 	a = (int)res;
-	printf("(int) %.1lfÀÇ °á°ú : %d", res, a);
+	printf("(int) %.1lfì˜ ê²°ê³¼ : %d", res, a);
 
 	return 0;
 }
