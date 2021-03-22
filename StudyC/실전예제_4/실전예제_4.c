@@ -2,13 +2,13 @@
 
 int main(void)
 {
-	double height, weight, bmi;
+	double height, weight, bmi; // 입력변수 선언
 	
 	printf("몸무게와 키를 입력하시오 : ");
 	scanf("%lf%lf", &weight, &height);
 
-	height = height / 100.0;
-	bmi = weight / (height * height);
+	height = height / 100.0; // height 입력 후 bmi 계산을 위해 초기화
+	bmi = weight / (height * height); // bmi 계산으로 변수 초기화
 
 	(bmi >= 20.0)&&(bmi < 25.0)
 		? printf("표준입니다")
