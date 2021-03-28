@@ -11,6 +11,7 @@ int main(void)
 	{
 		if ((i % 3) == 0)
 		{
+			printf("i : %d\n", i);
 			continue;
 		}
 		sum += i;
