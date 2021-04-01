@@ -1,0 +1,4 @@
+﻿  7_6.c
+C:\C\StudyC\7_6\7_6.c(9,8): warning C4087: 'fruit': 'void' 매개 변수 목록을 사용하여 선언되었습니다.
+C:\C\StudyC\7_6\7_6.c(15,1): warning C4027: 정식 매개 변수 목록을 사용하지 않고 함수를 선언했습니다.
+  7_6.vcxproj -> C:\C\StudyC\7_6\Debug\7_6.exe
