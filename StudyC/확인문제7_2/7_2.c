@@ -2,7 +2,7 @@
 
 void sum(int a); // 함수 정의 (return 값이 없으므로 void 로 시작)
 
-int main(void)
+int main_a(void)
 {
 	sum(10);
 	sum(100);
