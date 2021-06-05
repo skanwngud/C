@@ -48,18 +48,13 @@ int main(void) {
 	{
 		printf("|\n");
 	}
-	for (i = 0; i < 4; i++)
+	for (i = 0; i < graph_one; i++)
 	{
-		for (j = 1; j < 5; j++)
-		{
-			for (k = 0; k < 5; k++)
-			{
-				if (j - graph[k] == 0)
-				{
-					printf('*');
-				}
-			}
-		}
+		printf("| *\n");
+	}
+	for (i = 0; i < graph_two; i++)
+	{
+		printf("| *\n");
 	}
 	printf("|-----------------\n");
 	printf("| 1/4 2/4 3/4 4/4");
