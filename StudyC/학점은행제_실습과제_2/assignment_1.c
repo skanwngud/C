@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+int maina(void) {
 	// 개인별 실적
 	int kim[5] = { 34000, 56000, 23000, 78000, 191000 };
 	int lee[5] = { 23000, 65000, 18000, 94000, 200000 };
