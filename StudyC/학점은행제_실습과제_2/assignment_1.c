@@ -1,6 +1,10 @@
 #include <stdio.h>
 
 int main(void) {
+<<<<<<< HEAD
+=======
+	// ���κ� ����
+>>>>>>> 1c3c30f995f6af30e7f339eacbda48d06b2cf6e7
 	int kim[5] = { 34000, 56000, 23000, 78000, 191000 };
 	int lee[5] = { 23000, 65000, 18000, 94000, 200000 };
 	int park[5] = { 25000, 34000, 19000, 68000, 146000 };
@@ -16,13 +20,21 @@ int main(void) {
 	// �� �� ���� ���� ����
 	int sum_year = kim[4] + lee[4] + park[4] + song[4] + choi[4];
 
+<<<<<<< HEAD
 	// �б⺰ ���� ���� ���?
+=======
+	// �б⺰ ���� ���� ���?
+>>>>>>> 1c3c30f995f6af30e7f339eacbda48d06b2cf6e7
 	double avg_one = sum_one / 5;
 	double avg_two = sum_two / 5;
 	double avg_three = sum_three / 5;
 	double avg_four = sum_four / 5;
 	
+<<<<<<< HEAD
 	// �� �� ���� ���� ���?
+=======
+	// �� �� ���� ���� ���?
+>>>>>>> 1c3c30f995f6af30e7f339eacbda48d06b2cf6e7
 	double avg_year = sum_year / 5;
 
 	// �׷���
@@ -33,6 +45,16 @@ int main(void) {
 
 	int graph[5] = { graph_one, graph_two, graph_three, graph_four };
 
+<<<<<<< HEAD
+=======
+	printf("1�б� ���� : %d\n", sum_one);
+	printf("1�б� ���?: %.2f\n", avg_one);
+	printf("1�� ���?: %.2f\n", avg_year);
+	printf("1�б� �׷��� : %d\n", graph_one);
+	printf("2�б� �׷��� : %d\n", graph_two);
+	printf("3�б� �׷��� : %d\n", graph_three);
+	printf("4�б� �׷��� : %d\n", graph_four);
+>>>>>>> 1c3c30f995f6af30e7f339eacbda48d06b2cf6e7
 
 	int i, j, k;
 	
