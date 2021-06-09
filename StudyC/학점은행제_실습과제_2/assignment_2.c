@@ -1,31 +1,26 @@
 #include <stdio.h>
+#include <string.h>
 #pragma warning(disable:4996)
 
 int main(void)
 {
 	int select;
 
-	char name[20];
-	char system[20];
-	char domain[20];
-	char organization[20];
-	char country[20];
-	char mail;
+	char name;
+	char system;
+	char domain;
+	char organization;
+	char country;
+	char* mail = NULL;
+	char input[] = "";
+	
 
-	printf("choose select : ");
+	printf("선택하세요 : ");
 	scanf("%d", &select);
-	scanf("%s", &mail);
+	scanf("%s", &input);
+	
+	mail = strlwr(input);
+	printf("%s", mail);
 
-	if (select == 1)
-	{
-		printf("select is 1");
-		name[20] = gets_s(mail, "@");
-		printf("%s", name);
-	}
-
-	else
-	{
-		printf("select is 2");
-	}
 	return 0;
 }
