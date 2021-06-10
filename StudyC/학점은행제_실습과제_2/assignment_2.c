@@ -42,10 +42,10 @@ int main(void)
 		for (i = 0; i < 5; i++)
 		{
 			scanf("%s", &email[i]);
-			email[5] += email[i];
+			email[4] += email[i];
 		}
 		
-		printf("%s @ %s . %s . %s . %s", email[0], email[1], email[2], email[3], email[4]);
+
 	}
 
 	return 0;

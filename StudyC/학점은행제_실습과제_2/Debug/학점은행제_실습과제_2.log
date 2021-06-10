@@ -1,9 +1,4 @@
 ﻿  assignment_2.c
-C:\C\StudyC\학점은행제_실습과제_2\assignment_2.c(48,10): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
-C:\C\StudyC\학점은행제_실습과제_2\assignment_2.c(48,10): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int'입니다.
-C:\C\StudyC\학점은행제_실습과제_2\assignment_2.c(48,10): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'int'입니다.
-C:\C\StudyC\학점은행제_실습과제_2\assignment_2.c(48,10): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 4의 형식이 'int'입니다.
-C:\C\StudyC\학점은행제_실습과제_2\assignment_2.c(48,10): warning C4477: 'printf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 5의 형식이 'int'입니다.
 C:\C\StudyC\학점은행제_실습과제_2\assignment_2.c(13,8): warning C4101: 'organization' :참조되지 않은 지역 변수입니다.
 C:\C\StudyC\학점은행제_실습과제_2\assignment_2.c(14,8): warning C4101: 'country' :참조되지 않은 지역 변수입니다.
 C:\C\StudyC\학점은행제_실습과제_2\assignment_2.c(12,8): warning C4101: 'domain' :참조되지 않은 지역 변수입니다.
