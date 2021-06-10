@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 // 1번 문제
-int main_a(void)
+int main_ab(void)
 {
     /* 변수 선언 */
     int kim[5] = { 0, }, lee[5] = { 0, }, park[5] = { 0, }, song[5] = { 0, }, choi[5] = { 0, };         // 개인별 실적 및 합계
