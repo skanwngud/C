@@ -11,7 +11,7 @@ void input_score(int(*arr)[5])
     }
 
     // 학생 성적 입력
-    printf("학생성적을 입렵 하세요 (5명의 학생 자료)\n");
+    printf("학생성적을 입력 하세요 (5명의 학생 자료)\n");
     for (int i = 0; i < 5; i++)
     {
         printf("%d번(국어, 영어, 수학) :", i + 1);
@@ -40,7 +40,7 @@ void avg_score(int(*score)[5], double* arr)
     }
 }
 
-int main_a(void)
+int main(void)
 {
     int score_arr[6][5] = { 0, };   // 번호, 성적, 총점
     double aves[5] = { 0, };      // 평균
@@ -92,5 +92,14 @@ int main_a(void)
     }
     printf("\n================================================\n");
 
+    for (int i = 0; i < 5; i++)
+    {
+        printf("\n개인별 총점 : 번호 %d 의 총점 %d", i, score_arr[i][4]);
+
+    }
+
+
+    printf("\n\n과목별 총점 : \n국어 : %d\n영어 : %d\n수학 : %d\n", score_arr[5][1], score_arr[5][2], score_arr[5][3]);
+    printf("\n과목별 평균 : \n국어 : %.2f\n영어 : %.2f\n수학 : %.2f\n", aves[1], aves[2], aves[3]);
     return 0;
 }
