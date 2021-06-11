@@ -40,7 +40,7 @@ void avg_score(int(*score)[5], double* arr)
     }
 }
 
-int main(void)
+int main_2(void)
 {
     int score_arr[6][5] = { 0, };   // ¹øÈ£, ¼ºÀû, ÃÑÁ¡
     double aves[5] = { 0, };      // Æò±Õ
