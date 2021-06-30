@@ -1,3 +1,2 @@
 ﻿  Study_Self.c
-C:\C\StudyC\pointer_real\Study_Self.c(30,9): warning C4101: 'temp' :참조되지 않은 지역 변수입니다.
   pointer_real.vcxproj -> C:\C\StudyC\pointer_real\Debug\pointer_real.exe
