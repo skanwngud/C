@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+int e(void)
 {
 	double arr[5] = { 1.2, 3.5, 7.4, 0.6, 10.0 };
 	double *pa = arr;

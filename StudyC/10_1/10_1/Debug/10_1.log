@@ -1,5 +1,2 @@
-﻿  확인문제.c
-d:\c\studyc\10_1\10_1\확인문제.c(9): warning C4477: 'printf' : 서식 문자열 '%.1lf'에 'double' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'double *'입니다.
-d:\c\studyc\10_1\10_1\확인문제.c(11): warning C4477: 'printf' : 서식 문자열 '%.1lf'에 'double' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'double *'입니다.
-d:\c\studyc\10_1\10_1\확인문제.c(14): warning C4477: 'printf' : 서식 문자열 '%.1lf'에 'double' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
+﻿  확인문제_2.c
   10_1.vcxproj -> D:\C\StudyC\10_1\Debug\10_1.exe

@@ -129,6 +129,7 @@
     <ClCompile Include="10_2.c" />
     <ClCompile Include="10_4.c" />
     <ClCompile Include="확인문제.c" />
+    <ClCompile Include="확인문제_2.c" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="10_3.c">
