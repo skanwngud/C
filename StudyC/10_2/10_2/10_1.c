@@ -2,7 +2,7 @@
 
 void print_arr(int *pa); // 함수 선언
 
-int main(void)
+int a(void)
 {
 	int arr[5] = { 10, 20, 30, 40, 50 };
 
