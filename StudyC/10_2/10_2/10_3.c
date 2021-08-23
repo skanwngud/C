@@ -4,7 +4,7 @@
 void input_arr(double *pa, int size);
 double find_max(double *pa, int size);
 
-int main(void)
+int c(void)
 {
 	double arr[5];
 	double max;
