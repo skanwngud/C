@@ -8,6 +8,7 @@ int main(void)
 	printf("좋아하는 동물 : ");
 	scanf("%s", ani);
 	// 필요한 문장
+	getchar();
 	printf("좋아하는 이유 : ");
 	fgets(why, sizeof(why), stdin);
 	printf("%s is %s", ani, why);
@@ -18,3 +19,6 @@ int main(void)
 // 좋아하는 동물 : dog
 // 좋아하는 이유 : very faithful
 // dog is very faithful
+
+// 좋아하는 동물 : dog
+// 좋아하는 이유 : dog is
