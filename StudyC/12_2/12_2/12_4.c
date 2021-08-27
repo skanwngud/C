@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+
+int d(void)
+{
+	char str1[80], str2[80]; // 두 문자를 입력할 배열
+	char *resp;
+
+	printf("2개의 과일 이름 입력 : ");
+	scanf("%s%s", str1, str2);
+	if (strlen(str1) > strlen(str2))
+		resp = str1;
+	else
+		resp = str2;
+	printf("이름이 긴 과일은 : %s\n", resp);
+
+	return 0;
+}
