@@ -2,7 +2,7 @@
 
 char *my_strcpy(char *pd, char *ps);
 
-int main(void)
+int strc(void)
 {
 	char str[80] = "strawberry";
 

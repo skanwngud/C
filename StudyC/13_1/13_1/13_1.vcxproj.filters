@@ -15,34 +15,25 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="12_1.c">
+    <ClCompile Include="13_4_static.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="12_2.c">
+    <ClCompile Include="13_3_global.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="12_3.c">
+    <ClCompile Include="13_2_local_in_block.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="12_4.c">
+    <ClCompile Include="13_1_local.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="12_5.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="strcpy.c">
+    <ClCompile Include="13_5_register.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="확인문제.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="확인문제2.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="실전문제.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="실전문제_풀이.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
