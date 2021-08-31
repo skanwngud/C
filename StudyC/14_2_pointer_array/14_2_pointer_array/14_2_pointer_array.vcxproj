@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{2A34E466-1B36-4D8C-9076-E5947975D28A}</ProjectGuid>
-    <RootNamespace>My141array</RootNamespace>
+    <ProjectGuid>{D3D64D6C-7C9E-457A-BA49-6928A66998CB}</ProjectGuid>
+    <RootNamespace>My142pointerarray</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -76,7 +76,6 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -124,10 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="14_1_2dimArray.c" />
-    <ClCompile Include="14_3_2dimChar.c" />
-    <ClCompile Include="14_4_2dimCharInit.c" />
-    <ClCompile Include="14_5_3dimArray.c" />
+    <ClCompile Include="14_1_pointer_array.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

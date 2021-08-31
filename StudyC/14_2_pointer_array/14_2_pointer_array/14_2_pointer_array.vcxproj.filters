@@ -15,16 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="14_1_2dimArray.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="14_3_2dimChar.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="14_4_2dimCharInit.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="14_5_3dimArray.c">
+    <ClCompile Include="14_1_pointer_array.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
