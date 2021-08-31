@@ -1,0 +1,3 @@
+﻿  예제3_5.c
+C:\C\StudyC\3_5\예제3_5.c(5,1): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+  3_5.vcxproj -> C:\C\StudyC\3_5\Debug\3_5.exe
