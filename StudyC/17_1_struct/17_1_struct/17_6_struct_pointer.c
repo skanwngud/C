@@ -7,7 +7,7 @@ struct score
 	int math;
 };
 
-int main(void)
+int f(void)
 {
 	struct score yuni = { 90, 80, 70 };
 	struct score *ps = &yuni; // 구조체 포인터에 주소 저장

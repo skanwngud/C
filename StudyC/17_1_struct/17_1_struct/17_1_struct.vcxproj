@@ -130,6 +130,7 @@
     <ClCompile Include="17_4_init.c" />
     <ClCompile Include="17_5_func.c" />
     <ClCompile Include="17_6_struct_pointer.c" />
+    <ClCompile Include="17_7_self.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
